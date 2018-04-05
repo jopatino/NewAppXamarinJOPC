@@ -4,8 +4,9 @@
              xmlns:local="clr-namespace:NewAppXamarinJOPC"
              x:Class="NewAppXamarinJOPC.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
+	<Label Text="Perro Canequero" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
+    <Button Text="Enviar"  BackgroundColor="Tomato" TextColor="White"></Button>
 
 </ContentPage>
