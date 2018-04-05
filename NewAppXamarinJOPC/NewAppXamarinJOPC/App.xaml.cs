@@ -12,7 +12,7 @@ namespace NewAppXamarinJOPC
 		public App ()
 		{
 			InitializeComponent();
-
+            
 			MainPage = new NewAppXamarinJOPC.MainPage();
 		}
 

@@ -5,5 +5,13 @@
              x:Class="NewAppXamarinJOPC.MainPage">
 
     <ActivityIndicator Color="Peru" IsRunning="True"></ActivityIndicator>
-    <BoxView Color="DarkGoldenrod" WidthRequest="200" HeightRequest="150" HorizontalOptions="Center" VerticalOptions="Start"></BoxView>    
+    <!--<BoxView Color="DarkGoldenrod" WidthRequest="200" HeightRequest="150" HorizontalOptions="Center" VerticalOptions="Start"></BoxView> -->
+    <Button x:Name="btnEnviar"
+            Text="enviar" 
+            BackgroundColor="DarkViolet" 
+            TextColor="White" FontSize="Medium" 
+            FontAttributes="Italic" 
+            VerticalOptions="Center" HorizontalOptions="Center" 
+            ></Button>
+    <!--Clicked="btn_Clicked" -->
 </ContentPage>
