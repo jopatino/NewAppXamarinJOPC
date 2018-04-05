@@ -12,6 +12,10 @@
             TextColor="White" FontSize="Medium" 
             FontAttributes="Italic" 
             VerticalOptions="Center" HorizontalOptions="Center" 
+            BorderColor="White"
+            BorderWidth="3"
+            Image="enviar.png"
             ></Button>
-    <!--Clicked="btn_Clicked" -->
+    <!--Clicked="btn_Clicked" 
+        ContentLayout="Top,40"-->
 </ContentPage>

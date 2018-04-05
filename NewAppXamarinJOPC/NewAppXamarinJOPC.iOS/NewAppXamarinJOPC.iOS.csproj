@@ -128,4 +128,7 @@
       <Name>NewAppXamarinJOPC</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\enviar.png" />
+  </ItemGroup>
 </Project>
