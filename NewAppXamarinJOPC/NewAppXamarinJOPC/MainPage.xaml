@@ -4,9 +4,6 @@
              xmlns:local="clr-namespace:NewAppXamarinJOPC"
              x:Class="NewAppXamarinJOPC.MainPage">
 
-	<Label Text="Perro Canequero" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-    <Button Text="Enviar"  BackgroundColor="Tomato" TextColor="White"></Button>
+    <ActivityIndicator Color="Peru" IsRunning="True"></ActivityIndicator>
 
 </ContentPage>
