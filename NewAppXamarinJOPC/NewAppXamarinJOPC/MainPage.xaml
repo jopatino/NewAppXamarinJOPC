@@ -5,5 +5,5 @@
              x:Class="NewAppXamarinJOPC.MainPage">
 
     <ActivityIndicator Color="Peru" IsRunning="True"></ActivityIndicator>
-
+    <BoxView Color="DarkGoldenrod" WidthRequest="200" HeightRequest="150" HorizontalOptions="Center" VerticalOptions="Start"></BoxView>    
 </ContentPage>
