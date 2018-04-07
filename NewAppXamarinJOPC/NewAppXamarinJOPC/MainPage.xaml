@@ -6,7 +6,8 @@
 
     <ActivityIndicator Color="Peru" IsRunning="True"></ActivityIndicator>
     <!--<BoxView Color="DarkGoldenrod" WidthRequest="200" HeightRequest="150" HorizontalOptions="Center" VerticalOptions="Start"></BoxView> -->
-    <Button x:Name="btnEnviar"
+    <StackLayout>
+           <Button x:Name="btnEnviar"
             Text="enviar" 
             BackgroundColor="DarkViolet" 
             TextColor="White" FontSize="Medium" 
@@ -16,6 +17,14 @@
             BorderWidth="3"
             Image="enviar.png"
             ></Button>
-    <!--Clicked="btn_Clicked" 
+        <!--Clicked="btn_Clicked" 
         ContentLayout="Top,40"-->
+    <DatePicker x:Name="dtpFechaInicial" WidthRequest="100" HeightRequest="100">
+        <!-- format="dd/MM/yyyy" -->
+    </DatePicker>
+        <Editor HeightRequest="300" Keyboard="Numeric" FontAttributes="Bold" FontSize="Large" TextColor="Chocolate" x:Name="edDesc"></Editor>
+        <!-- text, char, url, email, telephone, numeric-->
+        <Entry x:Name="entPassword" VerticalOptions="Center" IsPassword="True" PlaceholderColor="Orange" Text="Este es el texto" TextColor="DarkOrange" FontAttributes="Bold" FontSize="Large"></Entry>
+        <Image Source="meme.jpg" Aspect="AspectFill"></Image>
+    </StackLayout>
 </ContentPage>
